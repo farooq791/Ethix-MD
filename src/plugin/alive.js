@@ -51,7 +51,7 @@ _________________________________________
             text: uptimeMessage
           }),
           footer: proto.Message.InteractiveMessage.Footer.create({
-            text: "© Powered By 𝞢𝙏𝞖𝞘𝞦-𝞛𝘿"
+            text: "© Powered By FAROOQ-SINDHI"
           }),
           header: proto.Message.InteractiveMessage.Header.create({
             title: "",
