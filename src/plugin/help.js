@@ -90,18 +90,18 @@ let mode = ethix.public ? 'public' : 'private';
           },
           interactiveMessage: proto.Message.InteractiveMessage.create({
             body: proto.Message.InteractiveMessage.Body.create({
-              text: `╭─────────────━┈⊷
-│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *ᴇᴛʜɪx-ᴍᴅ*
-│📍 ᴠᴇʀꜱɪᴏɴ: 2.0.3
-│👨‍💻 ᴏᴡɴᴇʀ : *ᴇᴛʜɪx xsɪᴅ*      
-│👤 ɴᴜᴍʙᴇʀ: 919142294671
-│📡 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
-│🛡 ᴍᴏᴅᴇ: *${mode}*
-│💫 ᴘʀᴇғɪx: *[Multi-Prefix]*
-╰─────────────━┈⊷ `
+              text: `╭─────────────━┈⊷🔥✨
+│✨🤖 ʙᴏᴛ ɴᴀᴍᴇ: *FAROOQ-SINDHI*
+│✨📍 ᴠᴇʀꜱɪᴏɴ: 2.0.3
+│✨👨‍💻 ᴏᴡɴᴇʀ : *FAROOQ SINDHI*      
+│✨👤 ɴᴜᴍʙᴇʀ: 923332591943
+│✨📡 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
+│✨🛡 ᴍᴏᴅᴇ: *${mode}*
+│✨💫 ᴘʀᴇғɪx: *[Multi-Prefix]*
+╰─────────────━┈⊷🔥✨ `
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: "© Powered By Ethix-MD"
+              text: "© Powered By FAROOQ-SINDHI"
             }),
             header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./src/ethix.jpg')}, { upload: Matrix.waUploadToServer})), 
@@ -191,7 +191,7 @@ let mode = ethix.public ? 'public' : 'private';
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "Ethix-MD",
+                  newsletterName: "✨FAROOQ-SINDHI✨",
                   serverMessageId: 143
                 }
               }
@@ -208,15 +208,15 @@ let mode = ethix.public ? 'public' : 'private';
         const mode = process.env.MODE;
         const str = `hey ${m.pushName} ${pushwish}
 ╭─────────────━┈⊷
-│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *ᴇᴛʜɪx-ᴍᴅ*
-│📍 ᴠᴇʀꜱɪᴏɴ: 2.0.3
-│👨‍💻 ᴏᴡɴᴇʀ : *ᴇᴛʜɪx xsɪᴅ*      
-│👤 ɴᴜᴍʙᴇʀ: 919142294671
-│💻 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
-│🛡 ᴍᴏᴅᴇ: *${mode}*
-│💫 ᴘʀᴇғɪx: *[Multi-Prefix]*
+│✨🤖 ʙᴏᴛ ɴᴀᴍᴇ: *FAROOQ-SINDHI*
+│✨📍 ᴠᴇʀꜱɪᴏɴ: 2.0.3
+│✨👨‍💻 ᴏᴡɴᴇʀ : *FAROOQ SINDHI*      
+│✨👤 ɴᴜᴍʙᴇʀ: 923332591943
+│✨💻 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
+│✨🛡 ᴍᴏᴅᴇ: *${mode}*
+│✨💫 ᴘʀᴇғɪx: *[Multi-Prefix]*
 ╰─────────────━┈⊷ 
-╭━❮ 𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙴𝚁 ❯━╮
+╭━❮ 📁𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙴𝚁📁 ❯━╮
 ┃✰ ${prefix}𝙰𝚃𝚃𝙿
 ┃✰ ${prefix}𝙰𝚃𝚃𝙿2
 ┃✰ ${prefix}𝙰𝚃𝚃𝙿3
@@ -225,7 +225,7 @@ let mode = ethix.public ? 'public' : 'private';
 ┃✰ ${prefix}𝙴𝙼𝙾𝙹𝙸𝙼𝙸𝚇
 ┃✰ ${prefix}𝙼𝙿3
 ╰━━━━━━━━━━━━━━━⪼
-╭━❮ 𝙰𝙸 ❯━╮
+╭━❮ 📂𝙰𝙸 📂❯━╮
 ┃✰ ${prefix}𝙰𝚒
 ┃✰ ${prefix}𝙱𝚞𝚐
 ┃✰ ${prefix}𝚁𝚎𝚙𝚘𝚛𝚝
@@ -234,14 +234,14 @@ let mode = ethix.public ? 'public' : 'private';
 ┃✰ ${prefix}𝚁𝚎𝚖𝚒𝚗𝚒
 ┃✰ ${prefix}𝙶𝚎𝚖𝚒𝚗𝚒
 ╰━━━━━━━━━━━━━━━⪼
-╭━❮ 𝚃𝙾𝙾𝙻 ❯━╮
+╭━❮ 📂𝚃𝙾𝙾𝙻📂 ❯━╮
 ┃✰ ${prefix}𝙲𝚊𝚕𝚌𝚞𝚕𝚊𝚝𝚘𝚛
 ┃✰ ${prefix}𝚃𝚎𝚖𝚙𝚖𝚊𝚒𝚕
 ┃✰ ${prefix}𝙲𝚑𝚎𝚌𝚔𝚖𝚊𝚒𝚕
 ┃✰ ${prefix}𝚃𝚛𝚝
 ┃✰ ${prefix}𝚃𝚝𝚜
 ╰━━━━━━━━━━━━━━━⪼
-╭━❮ 𝙶𝚁𝙾𝚄𝙿 ❯━╮
+╭━❮ 📂𝙶𝚁𝙾𝚄𝙿📂 ❯━╮
 ┃✰ ${prefix}𝙻𝚒𝚗𝚔𝙶𝚛𝚘𝚞𝚙
 ┃✰ ${prefix}𝚂𝚎𝚝𝚙𝚙𝚐𝚌
 ┃✰ ${prefix}𝚂𝚎𝚝𝚗𝚊𝚖𝚎
@@ -259,7 +259,7 @@ let mode = ethix.public ? 'public' : 'private';
 ┃✰ ${prefix}𝙳𝚎𝚖𝚘𝚝𝚎
 ┃✰ ${prefix}𝙶𝚎𝚝𝚋𝚒𝚘
 ╰━━━━━━━━━━━━━━━⪼
-╭━❮ 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 ❯━╮
+╭━❮ 📂𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳📂❯━╮
 ┃✰ ${prefix}𝙰𝚙𝚔
 ┃✰ ${prefix}𝙵𝚊𝚌𝚎𝚋𝚘𝚘𝚔
 ┃✰ ${prefix}𝙼𝚎𝚍𝚒𝚊𝚏𝚒𝚛𝚎
@@ -276,7 +276,7 @@ let mode = ethix.public ? 'public' : 'private';
 ┃✰ ${prefix}𝚈𝚝𝚖𝚙4𝚍𝚘𝚌
 ┃✰ ${prefix}𝚃𝚒𝚔𝚝𝚘𝚔
 ╰━━━━━━━━━━━━━━━⪼
-╭━❮ 𝚂𝙴𝙰𝚁𝙲𝙷 ❯━╮
+╭━❮ 📂𝚂𝙴𝙰𝚁𝙲𝙷📂 ❯━╮
 ┃✰ ${prefix}𝙿𝚕𝚊𝚢
 ┃✰ ${prefix}𝚈𝚝𝚜
 ┃✰ ${prefix}𝙸𝚖𝚍𝚋
@@ -289,14 +289,14 @@ let mode = ethix.public ? 'public' : 'private';
 ┃✰ ${prefix}𝚁𝚒𝚗𝚐𝚝𝚘𝚗𝚎
 ┃✰ ${prefix}𝙻𝚢𝚛𝚒𝚌𝚜
 ╰━━━━━━━━━━━━━━━⪼
-╭━❮ 𝙼𝙰𝙸𝙽 ❯━╮
+╭━❮ 📂𝙼𝙰𝙸𝙽📂 ❯━╮
 ┃✰ ${prefix}𝙿𝚒𝚗𝚐
 ┃✰ ${prefix}𝙰𝚕𝚒𝚟𝚎
 ┃✰ ${prefix}𝙾𝚠𝚗𝚎𝚛
 ┃✰ ${prefix}𝙼𝚎𝚗𝚞
 ┃✰ ${prefix}𝙸𝚗𝚏𝚘𝚋𝚘𝚝
 ╰━━━━━━━━━━━━━━━⪼
-╭━❮ 𝙾𝚆𝙽𝙴𝚁 ❯━╮
+╭━❮ 📂𝙾𝚆𝙽𝙴𝚁📂 ❯━╮
 ┃✰ ${prefix}𝙹𝚘𝚒𝚗
 ┃✰ ${prefix}𝙻𝚎𝚊𝚟𝚎
 ┃✰ ${prefix}𝙱𝚕𝚘𝚌𝚔
@@ -310,7 +310,7 @@ let mode = ethix.public ? 'public' : 'private';
 ┃✰ ${prefix}𝙰𝚞𝚝𝚘𝚁𝚎𝚊𝚍
 ┃✰ ${prefix}𝚊𝚞𝚝𝚘𝚜𝚟𝚒𝚎𝚠
 ╰━━━━━━━━━━━━━━━⪼
-╭━❮ 𝚂𝚃𝙰𝙻𝙺 ❯━╮
+╭━❮ 📂𝚂𝚃𝙰𝙻𝙺📂 ❯━╮
 ┃✰ ${prefix}𝚃𝚛𝚞𝚎𝚌𝚊𝚕𝚕𝚎𝚛
 ┃✰ ${prefix}𝙸𝚗𝚜𝚝𝚊𝚂𝚝𝚊𝚕𝚔
 ┃✰ ${prefix}𝙶𝚒𝚝𝚑𝚞𝚋𝚂𝚝𝚊𝚕𝚔
@@ -324,8 +324,8 @@ let mode = ethix.public ? 'public' : 'private';
             },
             message: {
                 contactMessage: {
-                    displayName: `Ethix-MD`,
-                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'Ethix-MD'\nitem1.TEL;waid=${
+                    displayName: `FAROOQ-SINDHI`,
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'FAROOQ-SINDHI'\nitem1.TEL;waid=${
                         m.sender.split("@")[0]
                     }:${
                         m.sender.split("@")[0]
@@ -342,7 +342,7 @@ let mode = ethix.public ? 'public' : 'private';
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "Ethix-MD",
+                  newsletterName: "FAROOQ-SINDHI",
                   serverMessageId: 143
                 }
               }
@@ -355,7 +355,7 @@ let mode = ethix.public ? 'public' : 'private';
 │➥ 𝚃𝙾𝚃𝙰𝙻 𝚁𝙰𝙼: ${formatBytes(totalMemoryBytes)}
 │➥ 𝙵𝚁𝙴𝙴 𝚁𝙰𝙼: ${formatBytes(freeMemoryBytes)}
 ╰━━━━━━━━━━━━━━━➥
-╭━❮ 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 ❯━╮
+╭━❮ 📂𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳📂 ❯━╮
 ┃✰ ${prefix}𝙰𝚙𝚔
 ┃✰ ${prefix}𝙵𝚊𝚌𝚎𝚋𝚘𝚘𝚔
 ┃✰ ${prefix}𝙼𝚎𝚍𝚒𝚊𝚏𝚒𝚛𝚎
@@ -381,7 +381,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "Ethix-MD",
+                  newsletterName: "FAROOQ-SINDHI",
                   serverMessageId: 143
                 }
               }
@@ -395,7 +395,7 @@ await Matrix.sendMessage(m.from, {
 │➥ 𝚃𝙾𝚃𝙰𝙻 𝚁𝙰𝙼: ${formatBytes(totalMemoryBytes)}
 │➥ 𝙵𝚁𝙴𝙴 𝚁𝙰𝙼: ${formatBytes(freeMemoryBytes)}
 ╰━━━━━━━━━━━━━━━➥
-╭━❮ 𝙶𝚁𝙾𝚄𝙿 ❯━╮
+╭━❮ 📂𝙶𝚁𝙾𝚄𝙿📂 ❯━╮
 ┃✰ ${prefix}𝙻𝚒𝚗𝚔𝙶𝚛𝚘𝚞𝚙
 ┃✰ ${prefix}𝚂𝚎𝚝𝚙𝚙𝚐𝚌
 ┃✰ ${prefix}𝚂𝚎𝚝𝚗𝚊𝚖𝚎
@@ -431,7 +431,7 @@ await Matrix.sendMessage(m.from, {
 │➥ 𝚃𝙾𝚃𝙰𝙻 𝚁𝙰𝙼: ${formatBytes(totalMemoryBytes)}
 │➥ 𝙵𝚁𝙴𝙴 𝚁𝙰𝙼: ${formatBytes(freeMemoryBytes)}
 ╰━━━━━━━━━━━━━━━➥
-╭━❮ 𝙼𝙰𝙸𝙽 ❯━╮
+╭━❮ 📂𝙼𝙰𝙸𝙽📂 ❯━╮
 ┃✰ ${prefix}𝙿𝚒𝚗𝚐
 ┃✰ ${prefix}𝙰𝚕𝚒𝚟𝚎
 ┃✰ ${prefix}𝙾𝚠𝚗𝚎𝚛
@@ -447,7 +447,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "Ethix-MD",
+                  newsletterName: "✨FAROOQ-SINDHI✨",
                   serverMessageId: 143
                 }
               }
@@ -461,7 +461,7 @@ await Matrix.sendMessage(m.from, {
 │➥ 𝚃𝙾𝚃𝙰𝙻 𝚁𝙰𝙼: ${formatBytes(totalMemoryBytes)}
 │➥ 𝙵𝚁𝙴𝙴 𝚁𝙰𝙼: ${formatBytes(freeMemoryBytes)}
 ╰━━━━━━━━━━━━━━━➥
-╭━❮ 𝙾𝚆𝙽𝙴𝚁 ❯━╮
+╭━❮✨𝙾𝚆𝙽𝙴𝚁💫❯━╮
 ┃✰ ${prefix}𝙹𝚘𝚒𝚗
 ┃✰ ${prefix}𝙻𝚎𝚊𝚟𝚎
 ┃✰ ${prefix}𝙱𝚕𝚘𝚌𝚔
@@ -486,7 +486,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "Ethix-MD",
+                  newsletterName: "✨FAROOQ-SINDHI✨",
                   serverMessageId: 143
                 }
               }
@@ -500,7 +500,7 @@ await Matrix.sendMessage(m.from, {
 │➥ 𝚃𝙾𝚃𝙰𝙻 𝚁𝙰𝙼: ${formatBytes(totalMemoryBytes)}
 │➥ 𝙵𝚁𝙴𝙴 𝚁𝙰𝙼: ${formatBytes(freeMemoryBytes)}
 ╰━━━━━━━━━━━━━━━➥
-╭━❮ 𝚂𝙴𝙰𝚁𝙲𝙷 ❯━╮
+╭━❮ 📂𝚂𝙴𝙰𝚁𝙲𝙷📂 ❯━╮
 ┃✰ ${prefix}𝙿𝚕𝚊𝚢
 ┃✰ ${prefix}𝚈𝚝𝚜
 ┃✰ ${prefix}𝙸𝚖𝚍𝚋
@@ -522,7 +522,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "Ethix-MD",
+                  newsletterName: "✨FAROOQ-SINDHI✨",
                   serverMessageId: 143
                 }
               }
@@ -535,7 +535,7 @@ await Matrix.sendMessage(m.from, {
 │➥ 𝚃𝙾𝚃𝙰𝙻 𝚁𝙰𝙼: ${formatBytes(totalMemoryBytes)}
 │➥ 𝙵𝚁𝙴𝙴 𝚁𝙰𝙼: ${formatBytes(freeMemoryBytes)}
 ╰━━━━━━━━━━━━━━━➥
-╭━❮ 𝚂𝚃𝙰𝙻𝙺 ❯━╮
+╭━❮ 📂𝚂𝚃𝙰𝙻𝙺📂 ❯━╮
 ┃✰ ${prefix}𝙽𝚘𝚠𝚊
 ┃✰ ${prefix}𝚃𝚛𝚞𝚎𝚌𝚊𝚕𝚕𝚎𝚛
 ┃✰ ${prefix}𝙸𝚗𝚜𝚝𝚊𝚂𝚝𝚊𝚕𝚔
@@ -550,7 +550,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "Ethix-MD",
+                  newsletterName: "✨FAROOQ-SINDHI✨",
                   serverMessageId: 143
                 }
               }
@@ -564,7 +564,7 @@ await Matrix.sendMessage(m.from, {
 │➥ 𝚃𝙾𝚃𝙰𝙻 𝚁𝙰𝙼: ${formatBytes(totalMemoryBytes)}
 │➥ 𝙵𝚁𝙴𝙴 𝚁𝙰𝙼: ${formatBytes(freeMemoryBytes)}
 ╰━━━━━━━━━━━━━━━➥
-╭━❮ 𝚃𝙾𝙾𝙻 ❯━╮
+╭━❮ 📂𝚃𝙾𝙾𝙻📂 ❯━╮
 ┃✰ ${prefix}𝙲𝚊𝚕𝚌𝚞𝚕𝚊𝚝𝚘𝚛
 ┃✰ ${prefix}𝚃𝚎𝚖𝚙𝚖𝚊𝚒𝚕
 ┃✰ ${prefix}𝙲𝚑𝚎𝚌𝚔𝚖𝚊𝚒𝚕
@@ -581,7 +581,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "Ethix-MD",
+                  newsletterName: "✨FAROOQ-SINDHI✨",
                   serverMessageId: 143
                 }
               }
@@ -595,7 +595,7 @@ await Matrix.sendMessage(m.from, {
 │➥ 𝚃𝙾𝚃𝙰𝙻 𝚁𝙰𝙼: ${formatBytes(totalMemoryBytes)}
 │➥ 𝙵𝚁𝙴𝙴 𝚁𝙰𝙼: ${formatBytes(freeMemoryBytes)}
 ╰━━━━━━━━━━━━━━━➥
-╭━❮ 𝙰𝙸 ❯━╮
+╭━❮ 📂𝙰𝙸📂 ❯━╮
 ┃✰ ${prefix}𝙰𝚒
 ┃✰ ${prefix}𝙱𝚞𝚐
 ┃✰ ${prefix}𝚁𝚎𝚙𝚘𝚛𝚝
@@ -627,7 +627,7 @@ await Matrix.sendMessage(m.from, {
 │➥ 𝚃𝙾𝚃𝙰𝙻 𝚁𝙰𝙼: ${formatBytes(totalMemoryBytes)}
 │➥ 𝙵𝚁𝙴𝙴 𝚁𝙰𝙼: ${formatBytes(freeMemoryBytes)}
 ╰━━━━━━━━━━━━━━━➥
-╭━❮ 𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙴𝚁 ❯━╮
+╭━❮ 📂𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙴𝚁📂 ❯━╮
 ┃✰ ${prefix}𝙰𝚃𝚃𝙿
 ┃✰ ${prefix}𝙰𝚃𝚃𝙿2
 ┃✰ ${prefix}𝙰𝚃𝚃𝙿3
