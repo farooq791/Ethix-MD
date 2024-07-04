@@ -1,7 +1,7 @@
 {
-  "name": "Ethix-MD",
+  "name": "FAROOQ-SINDHI",
   "version": "10.8.1",
-  "description": "Ethix-MD latest multi device whatsapp bot",
+  "description": "FAROOQ-SINDHI latest multi device whatsapp bot",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
