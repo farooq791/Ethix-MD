@@ -1,5 +1,5 @@
 {
-  "name": "whatsapp-bot (FAROOQ-SINDHI)",
+  "name": "whatsapp-bot (𝙁𝘼𝙍𝙊𝙊𝙌_𝘽𝘼𝙇𝙊𝘾𝙃)",
   "description": " Whatsapp bot.",
   "keywords": [
     "whatsapp bot"
@@ -8,7 +8,7 @@
   "stack": "container",
   "env": { 
       "SESSION_ID": {
-      "description": "your session id",
+      "description": "",
       "required": true,
       "value": ""
     },
@@ -19,7 +19,7 @@
     },
     "AUTO_STATUS_SEEN": {
       "description": "make it true if you want bot to view status",
-      "required": false,
+      "required": true,
       "value": ""
     },
     "AUTO_READ": {
@@ -39,7 +39,7 @@
     },
     "ALWAYS_ONLINE": {
       "description": "make it true if you want bot to show always online",
-      "required": false,
+      "required": true,
       "value": ""
     },
     "AUTO_BLOCK": {
