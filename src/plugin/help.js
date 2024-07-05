@@ -91,9 +91,9 @@ let mode = ethix.public ? 'public' : 'private';
           interactiveMessage: proto.Message.InteractiveMessage.create({
             body: proto.Message.InteractiveMessage.Body.create({
               text: `╭─────────────━┈⊷🔥✨
-│✨🤖 ʙᴏᴛ ɴᴀᴍᴇ: *FAROOQ-SINDHI*
+│✨🤖 ʙᴏᴛ ɴᴀᴍᴇ: *𝙁𝘼𝙍𝙊𝙊𝙌-𝘽𝘼𝙇𝙊𝘾𝙃*
 │✨📍 ᴠᴇʀꜱɪᴏɴ: 2.0.3
-│✨👨‍💻 ᴏᴡɴᴇʀ : *FAROOQ SINDHI*      
+│✨👨‍💻 ᴏᴡɴᴇʀ : *𝙁𝘼𝙍𝙊𝙊𝙌-𝘽𝘼𝙇𝙊𝘾𝙃*      
 │✨👤 ɴᴜᴍʙᴇʀ: 923332591943
 │✨📡 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
 │✨🛡 ᴍᴏᴅᴇ: *${mode}*
@@ -101,7 +101,7 @@ let mode = ethix.public ? 'public' : 'private';
 ╰─────────────━┈⊷🔥✨ `
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: "© Powered By FAROOQ-SINDHI"
+              text: "© Powered By ✨𝙁𝘼𝙍𝙊𝙊𝙌-𝘽𝘼𝙇𝙊𝘾𝙃✨"
             }),
             header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./src/ethix.jpg')}, { upload: Matrix.waUploadToServer})), 
@@ -114,16 +114,16 @@ let mode = ethix.public ? 'public' : 'private';
               buttons: [
                 {
                   "name": "single_select",
-                  "buttonParamsJson": `{"title":"🔖𝚻𝚫𝚸 𝐅𝚯𝚪 𝚯𝚸𝚵𝚴 𝚳𝚵𝚴𝐔",
+                  "buttonParamsJson": `{"title":"🔖𝙏𝘼𝙋 𝙁𝘼𝙍 𝚯𝙋𝙀𝙉 𝚳𝙀𝙉𝙐",
                  "sections":
                    [{
-                    "title":"😎 𝛯𝑇𝛨𝛪𝛸-𝛭𝐷 𝛥𝐿𝐿𝛭𝛯𝛮𝑈",
-                    "highlight_label":"🤩 𝛥𝐿𝐿𝛭𝛯𝛮𝑈",
+                    "title":"😎 𝙁𝘼𝙍𝙊𝙊𝙌-𝘽𝘼𝙇𝙊𝘾𝙃 𝛥𝐿𝐿𝛭𝛯𝛮𝑈",
+                    "highlight_label":"🤩 𝘼𝙇𝙇-𝙈𝙀𝙉𝙐",
                     "rows":[
                       {
                        "header":"",
                        "title":"🔰 ᴀʟʟ ᴍᴇɴᴜ",
-                       "description":"🎨𝛯𝑇𝛨𝛪𝛸-𝛭𝐷 𝛥𝐿𝐿𝛭𝛯𝛮𝑈🎨",
+                       "description":"🎨𝙁𝘼𝙍𝙊𝙊𝙌-𝘽𝘼𝙇𝙊𝘾𝙃 𝘼𝙇𝙇-𝙈𝙀𝙉𝙐🎨",
                        "id":"View All Menu"
                       },
                       {
@@ -191,7 +191,7 @@ let mode = ethix.public ? 'public' : 'private';
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "✨FAROOQ-SINDHI✨",
+                  newsletterName: "✨𝙁𝘼𝙍𝙊𝙊𝙌-𝘽𝘼𝙇𝙊𝘾𝙃✨",
                   serverMessageId: 143
                 }
               }
@@ -208,9 +208,9 @@ let mode = ethix.public ? 'public' : 'private';
         const mode = process.env.MODE;
         const str = `hey ${m.pushName} ${pushwish}
 ╭─────────────━┈⊷
-│✨🤖 ʙᴏᴛ ɴᴀᴍᴇ: *FAROOQ-SINDHI*
+│✨🤖 ʙᴏᴛ ɴᴀᴍᴇ: *𝙁𝘼𝙍𝙊𝙊𝙌-𝘽𝘼𝙇𝙊𝘾𝙃*
 │✨📍 ᴠᴇʀꜱɪᴏɴ: 2.0.3
-│✨👨‍💻 ᴏᴡɴᴇʀ : *FAROOQ SINDHI*      
+│✨👨‍💻 ᴏᴡɴᴇʀ : *𝙁𝘼𝙍𝙊𝙊𝙌-𝘽𝘼𝙇𝙊𝘾𝙃*      
 │✨👤 ɴᴜᴍʙᴇʀ: 923332591943
 │✨💻 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
 │✨🛡 ᴍᴏᴅᴇ: *${mode}*
@@ -381,7 +381,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "FAROOQ-SINDHI",
+                  newsletterName: "𝙁𝘼𝙍𝙊𝙊𝙌-𝘽𝘼𝙇𝙊𝘾𝙃",
                   serverMessageId: 143
                 }
               }
@@ -447,7 +447,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "✨FAROOQ-SINDHI✨",
+                  newsletterName: "✨𝙁𝘼𝙍𝙊𝙊𝙌-𝘽𝘼𝙇𝙊𝘾𝙃✨",
                   serverMessageId: 143
                 }
               }
@@ -456,7 +456,7 @@ await Matrix.sendMessage(m.from, {
 });
 }
    
-   if (selectedId == "Owner Menu") {
+   if (selectedId == "𝙊𝙒𝙉𝙀𝙍 𝙈𝙀𝙉𝙐") {
      const str = `╭───❮ *s ᴇ ʀ ᴠ ᴇ ʀ* ❯
 │➥ 𝚃𝙾𝚃𝙰𝙻 𝚁𝙰𝙼: ${formatBytes(totalMemoryBytes)}
 │➥ 𝙵𝚁𝙴𝙴 𝚁𝙰𝙼: ${formatBytes(freeMemoryBytes)}
@@ -486,7 +486,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "✨FAROOQ-SINDHI✨",
+                  newsletterName: "✨𝙁𝘼𝙍𝙊𝙊𝙌-𝘽𝘼𝙇𝙊𝘾𝙃✨",
                   serverMessageId: 143
                 }
               }
@@ -522,7 +522,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "✨FAROOQ-SINDHI✨",
+                  newsletterName: "✨𝙁𝘼𝙍𝙊𝙊𝙌-𝘽𝘼𝙇𝙊𝘾𝙃✨",
                   serverMessageId: 143
                 }
               }
@@ -550,7 +550,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "✨FAROOQ-SINDHI✨",
+                  newsletterName: "✨𝙁𝘼𝙍𝙊𝙊𝙌-𝘽𝘼𝙇𝙊𝘾𝙃✨",
                   serverMessageId: 143
                 }
               }
@@ -581,7 +581,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "✨FAROOQ-SINDHI✨",
+                  newsletterName: "✨✨𝙁𝘼𝙍𝙊𝙊𝙌-𝘽𝘼𝙇𝙊𝘾𝙃✨",
                   serverMessageId: 143
                 }
               }
@@ -613,7 +613,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "Ethix-MD",
+                  newsletterName: "✨𝙁𝘼𝙍𝙊𝙊𝙌-𝘽𝘼𝙇𝙊𝘾𝙃✨",
                   serverMessageId: 143
                 }
               }
@@ -646,7 +646,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "Ethix-MD",
+                  newsletterName: "✨𝙁𝘼𝙍𝙊𝙊𝙌-𝘽𝘼𝙇𝙊𝘾𝙃✨",
                   serverMessageId: 143
                 }
               }
