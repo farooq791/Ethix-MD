@@ -1,14 +1,14 @@
 {
-  "name": "FAROOQ-SINDHI",
+  "name": "𝙁𝘼𝙍𝙊𝙊𝙌_𝘽𝘼𝙇𝙊𝘾𝙃",
   "version": "10.8.1",
-  "description": "FAROOQ-SINDHI latest multi device whatsapp bot",
+  "description": "𝙁𝘼𝙍𝙊𝙊𝙌_𝘽𝘼𝙇𝙊𝘾𝙃 latest multi device whatsapp bot",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "start": "pm2 start src/index.js --deep-monitoring --attach --name Ethix-MD"
+    "start": "pm2 start src/index.js --deep-monitoring --attach --name 𝙁𝘼𝙍𝙊𝙊𝙌_𝘽𝘼𝙇𝙊𝘾𝙃"
   },
   "keywords": ["ethix-md", "whatsapp-bot", "whatsapp md bot"],
-  "author": "Ethix-Xsid",
+  "author": "𝙁𝘼𝙍𝙊𝙊𝙌_𝘽𝘼𝙇𝙊𝘾𝙃",
   "license": "ISC",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
