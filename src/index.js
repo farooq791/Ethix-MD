@@ -89,13 +89,13 @@ async function start() {
     try {
         const { state, saveCreds } = await useMultiFileAuthState(sessionDir);
         const { version, isLatest } = await fetchLatestBaileysVersion();
-        console.log(`🤖 Ethix-MD using WA v${version.join('.')}, isLatest: ${isLatest}`);
+        console.log(`🤖 𝙁𝘼𝙍𝙊𝙊𝙌_𝘽𝘼𝙇𝙊𝘾𝙃 using WA v${version.join('.')}, isLatest: ${isLatest}`);
         
         const Matrix = makeWASocket({
             version,
             logger: pino({ level: 'silent' }),
             printQRInTerminal: true,
-            browser: ["Ethix-MD", "safari", "3.3"],
+            browser: ["𝙁𝘼𝙍𝙊𝙊𝙌_𝘽𝘼𝙇𝙊𝘾𝙃", "safari", "3.3"],
             auth: state,
             getMessage: async (key) => {
                 if (store) {
@@ -114,7 +114,7 @@ async function start() {
                 }
             } else if (connection === 'open') {
                 if (initialConnection) {
-                    console.log(chalk.green("😃 Integration Successful️ ✅"));
+                    console.log(chalk.green("😃 🇫 🇦 🇷 🇴 🇴 🇶 -🇧 🇴 🇹  ✅"));
                     Matrix.sendMessage(Matrix.user.id, { text: `😃 Integration Successful️ ✅` });
                     initialConnection = false;
                 } else {
