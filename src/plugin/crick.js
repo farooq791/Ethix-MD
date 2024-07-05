@@ -28,7 +28,7 @@ const cricketScore = async (m, Matrix) => {
       const result = response.data;
 
       let formattedResult = `╭══════════════•∞•══╮\n`;
-      formattedResult += `│⿻   *FAROOQ-SINDHI 😎 🔥*\n`;
+      formattedResult += `│⿻   *𝙁𝘼𝙍𝙊𝙊𝙌-𝘽𝘼𝙇𝙊𝘾𝙃 😎 🔥*\n`;
       formattedResult += `│⿻   *LIVE MATCH INFO* ✨\n`;
       formattedResult += `│⿻\n`;
 
