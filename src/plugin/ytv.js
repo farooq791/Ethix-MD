@@ -139,7 +139,7 @@ const song = async (m, Matrix) => {
         const size = selectedFormat.size;
 
         await Matrix.sendMessage(m.from, {
-          video: finalVideoBuffer,
+          document: finalVideoBuffer,
           mimetype: 'video/mp4',
           caption: `Title: ${selectedFormat.title}\nAuthor: ${selectedFormat.author}\nViews: ${selectedFormat.views}\nLikes: ${selectedFormat.likes}\nUpload Date: ${selectedFormat.uploadDate}\nDuration: ${duration}\nSize: ${size}\n\n> Powered by 𝞢𝙏𝞖𝞘𝞦-𝞛𝘿`
         }, { quoted: m });
