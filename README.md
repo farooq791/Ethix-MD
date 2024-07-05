@@ -1,4 +1,4 @@
-# FAROOQ-SINDHI
+# ✌️𝙁𝘼𝙍𝙊𝙊𝙌-𝘽𝘼𝙇𝙊𝘾𝙃✌️
 
 <p align="center">
   <a href="https://youtu.be/WcA7GZuaN0A">
@@ -10,10 +10,10 @@
   <a href="https://github.com/Ethix-Xsid"><img title="Author" src="https://img.shields.io/badge/Ethix-Xsid-black?style=for-the-badge&logo=WhatsApp"></a>
 </p>
 
-<p align="center">Introducing Ethix-MD, It is designed to bring a whole new level of excitement to your boring WhatsApp use.</p>
+<p align="center">Introducing 𝙁𝘼𝙍𝙊𝙊𝙌-𝘽𝘼𝙇𝙊𝘾𝙃, It is designed to bring a whole new level of excitement to your boring WhatsApp use.</p>
 
 <p align="center">
-  <a aria-label="Ethix-MD is free to use" href="https://youtube.com/@mhmodsofc" target="_blank">
+  <a aria-label="𝙁𝘼𝙍𝙊𝙊𝙌-𝘽𝘼𝙇𝙊𝘾𝙃 is free to use" href="https://youtube.com/@mhmodsofc" target="_blank">
     <img alt="MH MODS OFC Yt" src="https://img.shields.io/youtube/channel/subscribers/UCWHA-PreVSVaYhDTAiUipCA" target="_blank" />
   </a>
 </p>
