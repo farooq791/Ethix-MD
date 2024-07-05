@@ -12,14 +12,14 @@ const alive = async (m, Matrix) => {
   const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).toLowerCase() : '';
     if (['alive', 'uptime', 'runtime'].includes(cmd)) {
 
-  const uptimeMessage = `*🤖 ETHIX-MD Status Overview*
-_________________________________________
+  const uptimeMessage = `*🤖 𝙁𝘼𝙍𝙊𝙊𝙌_𝘽𝘼𝙇𝙊𝘾𝙃 Status Overview*
+__________________𝙇𝙊𝘿𝙄𝙉𝙂-𝙎𝙋𝙀𝙀𝘿_________________🥀
 
 *📆 ${days} Day*
 *🕰️ ${hours} Hour*
 *⏳ ${minutes} Minute*
 *⏲️ ${seconds} Second*
-_________________________________________
+____________𝙊𝙒𝙉𝙀𝙍-𝙁𝘼𝙍𝙊𝙊𝙌-𝘽𝘼𝙇𝙊𝘾𝙃______________🥀
 `;
 
   const buttons = [
@@ -51,7 +51,7 @@ _________________________________________
             text: uptimeMessage
           }),
           footer: proto.Message.InteractiveMessage.Footer.create({
-            text: "© Powered By FAROOQ-SINDHI"
+            text: "© Powered By 𝙁𝘼𝙍𝙊𝙊𝙌_𝘽𝘼𝙇𝙊𝘾𝙃"
           }),
           header: proto.Message.InteractiveMessage.Header.create({
             title: "",
@@ -68,7 +68,7 @@ _________________________________________
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "Ethix-MD",
+                  newsletterName: "𝙁𝘼𝙍𝙊𝙊𝙌_𝘽𝘼𝙇𝙊𝘾𝙃",
                   serverMessageId: 143
                 }
               }
